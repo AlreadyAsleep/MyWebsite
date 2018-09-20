@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewBag.Title = "Resume";
+}
+
+<h2>Resume</h2>
+@Html.ActionLink("Go back", "Index", "Home")
+<div class="embed-responsive embed-responsive-1by1">
+    <object class="embed-responsive-item" data="~/Public/resume.pdf" type="application/pdf">
+        If you are unable to view the file,
+        probably because you don't have a pdf reader installed or you are on Internet Explorer (you monster),
+        you can download it below
+    </object>
+</div>
+
+
+<br />
+<a href="~/Public/resume.pdf" download>Download</a>
+

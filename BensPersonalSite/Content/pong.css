@@ -1,0 +1,24 @@
+﻿.pong-body {
+    width: 400px;
+    height: 480px;
+}
+
+.pong-h1 {
+    font-family: inherit;
+    font-size: xx-large;
+    color: aliceblue
+}
+
+
+.pong-h2 {
+    font-family: inherit;
+    font-size: xx-large;
+    color: aliceblue
+}
+
+.pong-canvas {
+    background-color: black;
+    position: center;
+    width: 400px;
+    height: 400px;
+}

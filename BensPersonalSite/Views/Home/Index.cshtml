@@ -1,0 +1,15 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+<br/>
+<div class="container">
+    <p class="display-4 text-center">
+        I am a developer from the Louisville, KY area and I love to build cool stuff
+    </p>
+</div>
+<br />
+<div class="card-deck">
+    @Html.Partial("~/Views/Home/AboutPartial.cshtml")
+    @Html.Partial("~/Views/Home/ResumePartial.cshtml")
+    @Html.Partial("~/Views/Home/ContactPartial.cshtml")
+</div>
