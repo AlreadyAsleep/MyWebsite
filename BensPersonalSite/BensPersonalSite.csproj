@@ -161,6 +161,7 @@
     <Content Include="Content\pong.css" />
     <Content Include="Public\headshot.jpg" />
     <Content Include="Public\ius.png" />
+    <Content Include="Public\louisville.jpg" />
     <Content Include="Public\siskin.png" />
     <Content Include="Public\unity.jpg" />
     <Content Include="Public\waystar.png" />

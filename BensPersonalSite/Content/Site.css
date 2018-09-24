@@ -1,6 +1,12 @@
 ﻿body {
     padding-bottom: 40px;
-    background-color: #1c1c1c;
+    background: url(../Public/louisville.jpg);
+    background-size: cover;
+}
+
+.container-dark {
+    background-color: #1e1e1e;
+    padding-bottom: 15px;
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -42,3 +48,4 @@ textarea {
 .icon-card{
     font-size: 24px;
 }
+
