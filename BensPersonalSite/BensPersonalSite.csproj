@@ -161,8 +161,8 @@
     <Content Include="Content\pong.css" />
     <Content Include="Public\headshot.jpg" />
     <Content Include="Public\ius.png" />
-    <Content Include="Public\mario.png" />
     <Content Include="Public\siskin.png" />
+    <Content Include="Public\unity.jpg" />
     <Content Include="Public\waystar.png" />
     <Content Include="Scripts\pong.js" />
     <Content Include="favicon.ico" />
