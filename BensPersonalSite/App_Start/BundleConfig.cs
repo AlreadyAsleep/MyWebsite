@@ -32,6 +32,9 @@ namespace BensPersonalSite
 
             bundles.Add(new ScriptBundle("~/bundles/pong").Include(
                 "~/Scripts/pong.js"));
+
+            bundles.Add(new ScriptBundle("~/bundles/track").Include(
+                "~/Scripts/send_pageview.js"));
         }
 
 
