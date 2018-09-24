@@ -19,7 +19,6 @@ namespace BensPersonalSite
         }
 
 
-        /* https://stackoverflow.com/questions/553922/routing-for-custom-asp-net-mvc-404-error-page */
         protected void Application_Error(object sender, EventArgs e)
         {
             Server.ClearError();

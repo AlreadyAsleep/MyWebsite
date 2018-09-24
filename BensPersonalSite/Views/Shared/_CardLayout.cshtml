@@ -5,8 +5,12 @@
     <div class="card-body text-white">
         @RenderBody()
     </div>
-    <div class="card-footer bg-primary">
-        @Html.ActionLink("See More", ViewBag.Title as string, "Home", new { @class = "text-white" })
-    </div>
+    @if (ViewBag.Title != "Contact")
+    {
+        <div class="card-footer bg-primary">
+            @Html.ActionLink("See More", ViewBag.Title as string, "Home", new { @class = "text-white" })
+        </div>
+    }
+
 
 </div>

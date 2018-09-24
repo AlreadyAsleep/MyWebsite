@@ -159,6 +159,11 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\pong.css" />
+    <Content Include="Public\headshot.jpg" />
+    <Content Include="Public\ius.png" />
+    <Content Include="Public\mario.png" />
+    <Content Include="Public\siskin.png" />
+    <Content Include="Public\waystar.png" />
     <Content Include="Scripts\pong.js" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
@@ -244,7 +249,6 @@
     <Content Include="Views\Shared\_CardLayout.cshtml" />
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Resume.cshtml" />
-    <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Header.cshtml" />
     <Content Include="Views\Home\Footer.cshtml" />
     <Content Include="Views\Error\NotFound.cshtml" />
