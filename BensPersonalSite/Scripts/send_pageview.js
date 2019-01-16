@@ -1,4 +1,4 @@
-﻿var track = (function ($) {
+﻿var track = (function () {
     var module = function () {}
     
     module.onReady = function () {
@@ -7,4 +7,4 @@
     }
 
     return module;
-}(jQuery));
+}());

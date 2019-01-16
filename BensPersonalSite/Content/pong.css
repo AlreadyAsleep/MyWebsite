@@ -1,6 +1,7 @@
 ﻿.pong-body {
     width: 400px;
     height: 480px;
+    margin-bottom: 15px;
 }
 
 .pong-h1 {

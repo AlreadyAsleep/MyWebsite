@@ -71,10 +71,10 @@ var createBall = function()
 var yPosPlayer = 5;
 document.addEventListener('keydown', function (event)
 {
-    if (event.keyCode === 38 && yPosPlayer > 5) {
+    if (event.keyCode === 87 && yPosPlayer > 5) {
         yPosPlayer -= 3;
     }
-    if (event.keyCode === 40 && yPosPlayer < 105) {
+    if (event.keyCode === 83 && yPosPlayer < 105) {
         yPosPlayer += 3;
     }
 });

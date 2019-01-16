@@ -14,7 +14,6 @@
     <title>@ViewBag.Title</title>
     @Styles.Render("~/Content/css")
     @Styles.Render("~/Content/fontawesome")
-    @Scripts.Render("~/bundles/jquery")
 </head>
 <body>
     @Html.Partial("~/Views/Home/Header.cshtml")
@@ -22,9 +21,9 @@
         @RenderBody()
     </div>
     @Html.Partial("~/Views/Home/Footer.cshtml")
-    @RenderSection("scripts", required: false)
-
+    @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @Scripts.Render("~/bundles/modernizr")
+    @RenderSection("scripts", required: false)
 </body>
 </html>

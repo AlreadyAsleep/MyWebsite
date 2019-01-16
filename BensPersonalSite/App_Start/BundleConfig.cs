@@ -26,7 +26,8 @@ namespace BensPersonalSite
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
-                      "~/Content/site.css"));
+                      "~/Content/site.css",
+                      "~/Content/pong.css"));
 
             bundles.Add(new StyleBundle("~/Content/fontawesome", "https://use.fontawesome.com/releases/v5.3.1/css/all.css"));
 
